@@ -11,8 +11,8 @@ A Todolist app built with basic functionalities like, add todo item, edit todo i
 ***
 Clone the repository to get a local copy
 From the cloned project directory
-Run `npm install` to install all dependencies
-Run `npm start` to start the local server
+* Run `npm install` to install all dependencies
+* Run `npm start` to start the local server
 
 ### Prerequisites
 * Node.JS
