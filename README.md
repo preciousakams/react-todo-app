@@ -2,7 +2,7 @@
 A Todolist app built with basic functionalities like, add todo item, edit todo item delete item and mark item as completed.
 
 
-## [Demo version](https://kamzzy-todoapp-react.netlify.app/) 
+## [Live Version](https://kamzzy-todoapp-react.netlify.app/) 
 
 ## Built With
 * React
