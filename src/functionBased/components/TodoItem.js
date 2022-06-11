@@ -1,8 +1,9 @@
-/* eslint-disable no-console */
-/* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
+
+/* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import { FaTrash } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
@@ -66,6 +67,13 @@ const TodoItem = (props) => {
       />
     </li>
   );
+};
+
+TodoItem.propTypes = {
+  todo: PropTypes.shape.isRequired,
+  handleChangeProps: PropTypes.func.isRequired,
+  deleteTodoProps: PropTypes.func.isRequired,
+  setUpdate: PropTypes.func.isRequired,
 };
 
 export default TodoItem;
