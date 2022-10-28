@@ -9,8 +9,9 @@ body {
   font-size: 2rem;
   font-weight: 600;
   color: black;
-  background: #fff;
   height: 100vh;
+  background: url("../public/background.png") no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -66,7 +67,7 @@ body {
 }
 
 .active {
-  color: goldenrod;
+  color: rgba(10, 36, 237, 0.992);
 }
 
 .navBar ul {
