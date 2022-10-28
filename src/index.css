@@ -8,7 +8,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: black;
+  color: rgba(10, 36, 237, 0.992);
   height: 100vh;
   background: url("../public/background.png") no-repeat;
   background-size: cover;
@@ -66,10 +66,6 @@ body {
   border: none;
 }
 
-.active {
-  color: rgba(10, 36, 237, 0.992);
-}
-
 .navBar ul {
   display: flex;
   flex-direction: row;
@@ -79,7 +75,7 @@ body {
 }
 
 a {
-  color: black;
+  color: rgba(10, 36, 237, 0.992);
   text-decoration: none;
 }
 
@@ -97,6 +93,43 @@ a {
   margin-top: 48px;
 }
 
+.authorDiv h4,
+.aboutAppDiv h4 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.authorDiv p,
+.aboutAppDiv p {
+  color: #b0ceef;
+  background-color: rgba(10, 36, 237, 0.992);
+  padding: 20px;
+  border-radius: 50px 0 50px 0;
+  margin-top: 2%;
+}
+
 .aboutDiv {
   display: inline;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #b0ceef;
+  padding-bottom: 2%;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  padding-left: 24px;
+  font-size: 24px;
+}
+
+.aboutNav .dropdown button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  color: rgba(10, 36, 237, 0.992);
+  font-size: 2rem;
+  cursor: pointer;
 }

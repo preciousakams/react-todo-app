@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import TodoList from './TodoList';
 import InputTodo from './InputTodo';
-import About from '../pages/About';
 import NotMatch from '../pages/NotMatch';
 import NavBar from './Navbar';
 import Author from '../pages/Author';
@@ -80,10 +79,8 @@ const TodoContainer = () => {
               </>
             )}
           />
-          <Route path="/about" element={<About />}>
-            <Route path="author" element={<Author />} />
-            <Route path="app" element={<AboutApp />} />
-          </Route>
+          <Route path="/author" element={<Author />} />
+          <Route path="/app" element={<AboutApp />} />
           <Route path="*" element={<NotMatch />} />
         </Routes>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutApp = () => (
   <div className="aboutAppDiv">
-    <h4>Welcome to the about app page</h4>
+    <h4> about app</h4>
     <p>
       Lorem ipsum dolor sit amet,
       consectetur adipiscing elit,

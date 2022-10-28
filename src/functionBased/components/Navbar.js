@@ -1,30 +1,22 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
-const NavBar = () => {
-  const links = [
-    {
-      id: 1,
-      path: '/',
-      text: 'Home',
-    },
-    {
-      id: 2,
-      path: '/about',
-      text: 'About',
-    },
-  ];
-  return (
-    <nav className="navBar">
-      <ul>
-        {links.map((link) => (
-          <li key={link.id}>
-            <NavLink to={link.path}>{link.text}</NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  );
-};
-
+const NavBar = () => (
+  <nav className="navBar">
+    <ul>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li className="aboutNav">
+        <DropdownButton id="dropdown-basic-button" title="About">
+          <Dropdown.Item href="/author">Author</Dropdown.Item>
+          <Dropdown.Item href="/app">About App</Dropdown.Item>
+        </DropdownButton>
+      </li>
+    </ul>
+    <Outlet />
+  </nav>
+);
 export default NavBar;

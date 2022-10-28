@@ -2,7 +2,7 @@ import React from 'react';
 
 const Author = () => (
   <div className="authorDiv">
-    <h4>Welcome to the authors page</h4>
+    <h4>About author</h4>
     <p>
       Lorem ipsum dolor sit amet,
       consectetur adipiscing elit,
