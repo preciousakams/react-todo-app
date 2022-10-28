@@ -1,4 +1,4 @@
-# TodoList App Built with react
+# Todos
 A Todolist app built with basic functionalities like, add todo item, edit todo item delete item and mark item as completed.
 
 
