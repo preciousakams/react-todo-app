@@ -1,5 +1,5 @@
 # Todos
-A Todolist app built with basic functionalities like, add todo item, edit todo item delete item and mark item as completed.
+A Todo app with features such as adding todo items, editing todo items, deleting items, and marking items as completed.
 
 
 ## [Click For Live Version](https://kamzzy-todoapp-react.netlify.app/) 
