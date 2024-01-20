@@ -5,7 +5,7 @@ import Header from './Header';
 import TodoList from './TodoList';
 import InputTodo from './InputTodo';
 import NotMatch from '../pages/NotMatch';
-import NavBar from './Navbar';
+// import NavBar from './Navbar';
 import Author from '../pages/Author';
 import AboutApp from '../pages/AboutApp';
 
@@ -62,7 +62,7 @@ const TodoContainer = () => {
 
     <div className="container">
       <div className="inner">
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes>
           <Route
             path="/"
