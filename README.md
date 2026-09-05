@@ -20,11 +20,12 @@ From the cloned project directory
 
 ### Author
 ***
-👤 Onyeagoziri Precious Akams
+👤 Precious Akams
 
-* GitHub: [@kamzzy](https://github.com/kamzzy)
+** GitHub: [@preciousakams](https://github.com/preciousakams)
 * Twitter:[@precious_akams](https://twitter.com/precious_akams)
-* LinkedIn:[Onyeagoziri Akams](https://www.linkedin.com/in/onyeagoziri-akams/)
+* LinkedIn:[Precious Akams](https://www.linkedin.com/in/preciousakams/)
+
 
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
